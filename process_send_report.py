@@ -549,10 +549,10 @@ def prefijo_con_mas_prepend():
 
 # ==================== FUNCIÓN DE ENVÍO DE CORREO ====================
 def enviar_correo(destinatario, asunto, contenido):
-    #remitente = "info.venog@gmail.com"
-    #password = "ikkz hmgz dmfb aikr"
-    remitente = "weeklyipv6report@gmail.com"
-    password = "gctv xevu lktj swau"
+    #remitente = "<YOUR EMAIL>"
+    #password = "<YOUR PASSWORD>"
+    remitente = "<YOUR EMAIL>"
+    password = "<YOUR PASSWORD>"
 
     mensaje = MIMEMultipart()
     mensaje['From'] = remitente
